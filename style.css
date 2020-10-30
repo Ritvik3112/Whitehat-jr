@@ -1,13 +1,20 @@
-body{
-  text-align: center;  
-}
-h1{
-    color: blue;
-    font-family: cursive;
+body {
+    background-color: aqua;
     text-align: center;
 }
-h2{
-    color: coral;
-    font-family: fantasy;
-    text-align: center;
+#img1{
+   height: 250px;
+   width:150px;
+}
+#img2{
+   height: 250px;
+   width:150px;
+}
+#img3{
+   height: 250px;
+   width:150px;
+}
+#img4{
+   height: 250px;
+   width:150px;
 }
