@@ -80,4 +80,8 @@ p{
     color: black;
     padding: 3px;
 }
-
+#authors{
+    background-color:cyan;
+    font-family: inherit;
+    color:crimson;
+}
