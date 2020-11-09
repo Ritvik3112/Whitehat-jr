@@ -85,3 +85,19 @@ p{
     font-family: inherit;
     color:crimson;
 }
+iframe{
+    height: 700px;
+    width: 600px;
+    margin-top: 20px;
+    border: solid;
+    border-color: black;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+#contact1{
+    background-color:chartreuse;
+    color: aqua
+}
+a{
+    font-size: 25px;
+}
