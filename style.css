@@ -1,42 +1,15 @@
-h1{
-    font-size: 40px;
-}
 body{
     text-align: center;
 }
-#img1{
-    height: 400px;
-    width: 350px;
+#myNavbar{
+    display: inline;
+    font-size: 18px;
+    color: black;
 }
-#img2{
-    height: 400px;
-    width: 350px;
+
+links:hover{
+    background-color:antiquewhite;
 }
-#img3{
-    height: 400px;
-    width: 350px;
-}
-#img4{
-    height: 400px;
-    width: 350px;
-}
-#img5{
-    height: 400px;
-    width: 350px;
-}
-#img6{
-    height: 400px;
-    width: 350px;
-}
-#img7{
-    height: 400px;
-    width: 350px;
-}
-#img8{
-    height: 400px;
-    width: 350px;
-}
-h2{
-    font-size: 35px;
-    color: blue
+#contact, #details, .contact1{
+    text-align: left;
 }
