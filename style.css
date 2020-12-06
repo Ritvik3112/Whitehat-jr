@@ -51,3 +51,17 @@ achievementId{
 .movie_head span{
     color: #FF7700
 }
+.environment_li{
+    margin-top: 23px;
+    display: inline;
+}
+.environment_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.environment_li img{
+    border-radius: 35px;
+}
+.environment_li p{
+    margin-top: 10px;
+}
