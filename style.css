@@ -54,13 +54,16 @@ achievementId{
 .environment_li{
     margin-top: 23px;
     display: inline;
+    text-align: center;
 }
 .environment_li h4{
     border-bottom: 1px solid white;
     padding: 8px;
 }
 .environment_li img{
+    width: 200px;
     border-radius: 35px;
+    align-items: center
 }
 .environment_li p{
     margin-top: 10px;
