@@ -1,87 +1,14 @@
+h1{
+    font-size: 40px;
+}
 body{
     text-align: center;
 }
-#myNavbar{
-    display: inline;
-    font-size: 18px;
-    color: black;
+#button_next{
+    height:20px;
+    width: 80px;
 }
-
-links:hover{
-    background-color:antiquewhite;
-}
-#contact, #details, .contact1{
-    text-align: left;
-}
-.row::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-.travel_mainDiv{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    border: 1px solid white;
-}
-.travel_mainDiv img{
-    width: 100%;
-    height: 300px;
-}
-.travel_mainDiv hr{
-    width: 100%;
-}
-.travel_mainDiv h5, .travel_mainDiv p{
-    margin-left: 23px;
-}
-achievementId{
-    padding-bottom: 10px;
-}
-.movie_head{
-    font-size: 20px;
-    padding: 6px 22px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    width: 100%;
-    display: inline-block;
-}
-.movie_head i{
-    float: right;
-}
-.movie_head span{
-    color: #FF7700
-}
-.environment_li{
-    margin-top: 23px;
-    display: inline;
-    text-align: center;
-}
-.environment_li h4{
-    border-bottom: 1px solid white;
-    padding: 8px;
-}
-.environment_li img{
-    width: 200px;
-    border-radius: 35px;
-    align-items: center
-}
-.environment_li p{
-    margin-top: 10px;
-}
-.modal-content{
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
-}
-.modal-content img{
-     width: 100%;
-     margin-bottom: 13px;
-}
-.modal-content p, .modal-content a{
-    color: cornsilk;
-}
-.modal-content a{
-    color: azure;
-}
-#aluminilist img{
-    height: 450px;
+#imgalbum{
+    height: 600px;
     width: 450px;
 }
