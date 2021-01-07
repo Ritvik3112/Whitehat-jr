@@ -1,0 +1,14 @@
+h1{
+    font-size: 40px;
+}
+body{
+    text-align: center;
+}
+#button_next{
+    height:20px;
+    width: 80px;
+}
+#imgalbum{
+    height: 600px;
+    width: 450px;
+}
