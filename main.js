@@ -1,24 +1,16 @@
-menu_list_array = ["Veg Extravaganza Pizza" , "Chicken Tandoori Pizza" , "Cheese and Corn Pizza" , "Deluxe Veggie Pizza" , "Double Cheese Margherita Pizza"];
- 
-function getmenu(){
-    var htmldata;
-    htmldata = "<ol class - 'menulist'>"
-    menu_list_array.sort();
-    for (i = 0; i<menu_list_array.length; i++){
-        htmldata = htmldata + '<li>' + menu_list_array[i] + '</li>'
+function getPara1(){
+    var inputs = [];
+    for (i = 1; i <= 6; i++){
+        inputs.push(document.getElementById("input_left" + i).value);
     }
-    htmldata = htmldata+"</ol>";
-    document.getElementById("display_menu").innerHTML = htmldata;
+    inputs.join(". ");
+    document.getElementById("show_para1").innerHTML = inputs.join(". ");
 }
-function add_item(){
-    var htmldata;
-    var item = document.getElementById("add_item").value;
-    menu_list_array.push(item);
-    menu_list_array.sort();
-    htmldata = "<section class = 'cards'>"
-    for (i = 0; i<menu_list_array.length; i++){
-        htmldata = htmldata + '<div class = "card">' + '<img src = "images/pizzaImg.png"/>' + menu_list_array[i] + '</div>'
+function getPara2(){
+    var inputs2 = [];
+    for (i = 1; i <= 6; i++){
+        inputs2.push(document.getElementById("input_right" + i).value);
     }
-    htmldata = htmldata+"</section";
-    document.getElementById("display_added_menu").innerHTML = htmldata;
+    inputs2.join(". ");
+    document.getElementById("show_para2").innerHTML = inputs2.join(". ");
 }
