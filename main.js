@@ -1,15 +1,24 @@
-var images=["https://i.postimg.cc/MKdhy06Z/family.jpg","https://i.postimg.cc/L6HcYQM0/grand-father.png", 
-"https://i.postimg.cc/wjMnFtMX/father.jpg" , "https://i.postimg.cc/5ymDKL83/bro.jpg"];
-var names = [
-    "Ramprasad Chandrasekaran" , "Shalini Venkateshwaran" , "Ritvik Krishna. R"
-];
-var i = 0;
-function nextpic(){
-             i++;
-         if (i == 4)
-     {
-         i=0;
-     }
-     document.getElementById("imgalbum").src = images[i];
-     document.getElementById("imgalbum").src = names[i];
+menu_list_array = ["Veg Extravaganza Pizza" , "Chicken Tandoori Pizza" , "Cheese and Corn Pizza" , "Deluxe Veggie Pizza" , "Double Cheese Margherita Pizza"];
+ 
+function getmenu(){
+    var htmldata;
+    htmldata = "<ol class - 'menulist'>"
+    menu_list_array.sort();
+    for (i = 0; i<menu_list_array.length; i++){
+        htmldata = htmldata + '<li>' + menu_list_array[i] + '</li>'
+    }
+    htmldata = htmldata+"</ol>";
+    document.getElementById("display_menu").innerHTML = htmldata;
+}
+function add_item(){
+    var htmldata;
+    var item = document.getElementById("add_item").value;
+    menu_list_array.push(item);
+    menu_list_array.sort();
+    htmldata = "<section class = 'cards'>"
+    for (i = 0; i<menu_list_array.length; i++){
+        htmldata = htmldata + '<div class = "card">' + '<img src = "images/pizzaImg.png"/>' + menu_list_array[i] + '</div>'
+    }
+    htmldata = htmldata+"</section";
+    document.getElementById("display_added_menu").innerHTML = htmldata;
 }
