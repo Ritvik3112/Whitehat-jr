@@ -1,33 +1,10 @@
-#button2{
-    margin-left: 275px;
-}
-#span1{
-    margin-left: 200px;
-}
-#span2{
-    margin-left: 200px;
-}
-#span3{
-    margin-left: 200px;
-}
-#span4{
-    margin-left: 200px;
-}
-#span5{
-    margin-left: 200px;
-}
-#span6{
-    margin-left: 200px;
-}
 .body-background{
-    background-image: url("background2.jpg");
+    background-image: url("background.jpg");
     background-position: center;
     background-size: cover;
 }
-#show_para1{
-    margin-top: 50px;
-    color: darkblue;
-}
-#show_para2{
-    color: brown;
+#my_Canvas{
+    background-color: white;
+    border-style: ridge;
+    border-width: 10px;
 }

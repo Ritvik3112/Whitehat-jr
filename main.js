@@ -1,16 +1,38 @@
-function getPara1(){
-    var inputs = [];
-    for (i = 1; i <= 6; i++){
-        inputs.push(document.getElementById("input_left" + i).value);
-    }
-    inputs.join(". ");
-    document.getElementById("show_para1").innerHTML = inputs.join(". ");
+canvas = document.getElementById("my_Canvas");
+ctx = canvas.getContext("2d");
+
+function draw(){
+ctx.beginpath();
+ctx.strokeStyle = red;
+ctx.linewidth = 2;
+ctx.rect(150 , 143 , 430 , 200);
+ctx.stroke();
+
+ctx.beginpath();
+ctx.strokeStyle = blue;
+ctx.linewidth = 2;
+ctx.rect(200 , 143 , 430 , 200);
+ctx.stroke();
+
+ctx.beginpath();
+ctx.strokeStyle = yellow;
+ctx.linewidth = 2;
+ctx.rect(250 , 143 , 430 , 200);
+ctx.stroke();
+
+ctx.beginpath();
+ctx.strokeStyle = green;
+ctx.linewidth = 2;
+ctx.rect(300 , 143 , 430 , 200);
+ctx.stroke();
+
+ctx.beginpath();
+ctx.strokeStyle = pink;
+ctx.linewidth = 2;
+ctx.rect(350 , 143 , 430 , 200);
+ctx.stroke();
 }
-function getPara2(){
-    var inputs2 = [];
-    for (i = 1; i <= 6; i++){
-        inputs2.push(document.getElementById("input_right" + i).value);
-    }
-    inputs2.join(". ");
-    document.getElementById("show_para2").innerHTML = inputs2.join(". ");
+
+function clear(){
+  ctx.clearRect(0 , 0 , canvas.height , canvas.width);
 }

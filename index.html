@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Paragraph Creator</title>
+        <title>Olympic Logo Creator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -11,54 +11,11 @@
     </head>
     <body class="body-background">
         <center>
-        <h1 class="text-danger">Making Paragraphs From The Input Boxes Given Below</h1>
-        <br>
-        <span>1.</span>
-        <input type="text" placeholder="Input 1" id="input_left1">
-        <span id="span1">1.</span>
-        <input type="text" placeholder="Input 1" id="input_right1">
-        <br>
-        <br>
-        <span>2.</span>
-        <input type="text" placeholder="Input 2" id="input_left2">
-        <span id="span2">2.</span>
-        <input type="text" placeholder="Input 2" id="input_right2">
-        <br>
-        <br>
-        <span>3.</span>
-        <input type="text" placeholder="Input 3" id="input_left3">
-        <span id="span3">3.</span>
-        <input type="text" placeholder="Input 3" id="input_right3">
-        <br>
-        <br>
-        <span>4.</span>
-        <input type="text" placeholder="Input 4" id="input_left4">
-        <span id="span4">4.</span>
-        <input type="text" placeholder="Input 4" id="input_right4">
-        <br>
-        <br>
-        <span>5.</span>
-        <input type="text" placeholder="Input 5" id="input_left5">
-        <span id="span5">5.</span>
-        <input type="text" placeholder="Input 5" id="input_right5">
-        <br>
-        <br>
-        <span>6.</span>
-        <input type="text" placeholder="Input 6" id="input_left6">
-        <span id="span6">6.</span>
-        <input type="text" placeholder="Input 6" id="input_right6">
-        <br>
-        <br>
-        <span>
-            <button class="btn-warning" type="button" id="button1" onclick="getPara1()">Get Paragraph 1</button>
-        </span>
-        <span>
-            <button class="btn-success" type="button" id="button2" onclick="getPara2()">Get Paragraph 2</button>
-        </span>
-        <div id="show_para1"></div>
-        <br>
-        <br>
-        <div id="show_para2"></div>
+            <h1 class="text-danger">The Olympics Logo</h1>
+            <canvas id="my_Canvas" width="800px" height="600px" onclick="draw()"></canvas>
+            <br>
+            <br>
+            <button id="button_clear" class="btn-success">Clear</button>
         </center>
     </body>
 </html>
