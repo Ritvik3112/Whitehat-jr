@@ -1,21 +1,29 @@
 <html>
-    <head>
-        <title>Olympic Logo Creator</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="main.js"></script>
-    </head>
-    <body class="body-background">
-        <center>
-            <h1 class="text-danger">The Olympics Logo</h1>
-            <canvas id="my_Canvas" width="800px" height="600px" onclick="draw()"></canvas>
-            <br>
-            <br>
-            <button id="button_clear" class="btn-success">Clear</button>
-        </center>
-    </body>
+<head>
+
+<title>C81</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="C81style.css">
+</head>
+<body class="body_background">
+	<div align = "center">
+		<h1>PAINT</h1>
+    <canvas id="my_Canvas" width="800" height="600"></canvas>
+	<br>
+	<span>Color - </span>
+	<input type="text" id="input_col" placeholder="Enter The Color">
+    <span>Width Of The Line - </span>
+    <input type="number" id="width_of_line" placeholder="Enter the Width">
+    <span>Radius - </span>
+    <input type="number" id="radius" placeholder="Enter the Radius">
+    <br>
+	<button onclick="clear();">Clear Area</button>
+</div>
+
+
+<script src="C81main.js"></script>
+</body>
 </html>
