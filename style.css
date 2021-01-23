@@ -3,8 +3,8 @@ h1
 {
 	font-size: 40px;
 }
-.body_background {
-	background-image: url("background.jpg");
+.body_backgorund {
+	background-image: url("bg1.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -13,4 +13,13 @@ h1
 	border-width: 10px;
 	border-style: ridge;
 	background-color: white;
+	color: "color";
+}
+button{
+	background-color: teal;
+	color: white;
+	border-style: ridge;
+}
+h1{
+	color: red;
 }
