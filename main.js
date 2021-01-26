@@ -76,4 +76,80 @@ function my_keydown(e){
         console.log("key d");
     }
 }
+function car1up(){
+    if(car1_y >= 0){
+    car1_y = car1_y - 10;
+    console.log("x = " + car1_x + " | y = " +car1_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car1down(){
+    if(car1_y <= 500){
+    car1_y = car1_y + 10;
+    console.log("x = " + car1_x + " | y = " +car1_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car1left(){
+    if(car1_x >= 0){
+    car1_x = car1_x - 10;
+    console.log("x = " + car1_x + " | y = " +car1_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car1right(){
+    if(car1_y <= 700){
+    car1_x = car1_x + 10;
+    console.log("x = " + car1_x + " | y = " +car1_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car2up(){
+    if(car2_y >= 0){
+    car2_y = car2_y - 10;
+    console.log("x = " + car2_x + " | y = " +car2_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car2down(){
+    if(car2_y <= 500){
+    car2_y = car2_y + 10;
+    console.log("x = " + car1_2 + " | y = " +car2_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car2left(){
+    if(car2_x >= 0){
+    car2_x = car2_x - 10;
+    console.log("x = " + car2_x + " | y = " +car2_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+function car2right(){
+    if(car2_y <= 700){
+    car2_x = car2_x + 10;
+    console.log("x = " + car2_x + " | y = " +car2_y);
+    uploadbackground();
+    uploadcar1();
+    uploadcar2();
+    }
+}
+if(car1_x > 700){
+    console.log("Car1 Won!");
+    document.getElementById('game_status').innerHTML = "Car 1 Won!!";
 
+}
