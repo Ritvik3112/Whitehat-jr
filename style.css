@@ -1,25 +1,41 @@
-
-h1
+.body_background 
 {
-	font-size: 40px;
+    background-image: url("download.jpeg");
+    background-position: center;
+    background-size: cover;
 }
-.body_backgorund {
-	background-image: url("bg1.jpg");
-	background-position: center;
-	background-size: cover;
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
 }
 
-#my_Canvas{
-	border-width: 10px;
-	border-style: ridge;
-	background-color: white;
-	color: "color";
+h2
+{
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+ }
+h3
+{
+	display: inline-block;
 }
-button{
-	background-color: teal;
-	color: white;
-	border-style: ridge;
+span
+{
+	color: black;	
 }
-h1{
-	color: red;
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+#head_info
+{
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }

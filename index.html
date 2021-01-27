@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body{
-	background-image: url("racing\ car.gif");
-    background-position: center;
-    background-size: cover;
-}
-#myCanvas
-{
-	border-width:10px;
-	background-color: white; 
-	border-style:ridge;
-}
+	<title>My Superhero</title>
 
-h1,h4
-{
-	color: white !important;
-}
-</style>		
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<title>RACE CAR</title>
-</head>
-<body onload="add();">
-<center>
-<h1>Car Racing</h1>
-<h1>Game Status : <span id="game_status"></span></h1>
-<canvas id="myCanvas" height="600" width="800"></canvas>
-<h4>
-	<b class="text-success">NOTE : </b> IF THE CARS IS NOT VISIBLE PRESS ANY ARROW KEY
-</h4>
 
-</center>
-<script src="main.js">
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_background">
+
+
+	<center>
+
+	<h2 class="btn-primary">My Superhero</h2>
+
+	<div class="btn-danger" id="head_info">
+		<h3>Current Width  = <span id="span1">30</span></h3>
+		<h3>Current Height  = <span id="span2">30</span></h3>
+	</div>
+	<canvas height="600" width="1000" id="myCanvas"></canvas>
+
+	</center>
+	<script src="main.js"></script>
 </body>
 </html>
