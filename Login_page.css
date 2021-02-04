@@ -1,0 +1,31 @@
+h1{
+    color: white;
+}
+#player1_input , #player2_input{
+    width: 200px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-top: 20px;
+    color: white;
+
+}
+.body_background{
+    background-image: url("swiss_alps_night_sky_11908.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin-top: 50px;
+    font-size: 75px;
+    text-shadow: black 1px solid;
+
+}
+label{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 20px;
+    font-style: inherit;
+}
+#h1_2{
+    font-size: 25px;
+}
