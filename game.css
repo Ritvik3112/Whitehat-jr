@@ -1,0 +1,56 @@
+h1{
+    color: white;
+}
+#body1{
+    background-color: lightblue;
+}
+#player1_input , #player2_input{
+    width: 200px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-top: 20px;
+    color: white;
+
+}
+.body_background{
+    background-image: url("swiss_alps_night_sky_11908.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin-top: 50px;
+    font-size: 75px;
+    text-shadow: black 1px solid;
+
+}
+label{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-style: inherit;
+}
+#h1_2{
+    font-size: 25px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#player_output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
