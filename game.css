@@ -54,3 +54,7 @@ h3{
 h4{
     color: white;
 }
+#number_input1 , #number_input2{
+    width: 300px;
+    border-radius: 45px;
+}
