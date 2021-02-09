@@ -18,18 +18,21 @@
 
 <div class="container">
 	<center>
-		<h2 style="color: white;">Guess The Word!</h2>
-		 <h3 id="player1_status"></h3>
+		<h2 style="color: white;">Maths Quiz Extravanganza!</h2>
+		<br>
+		 <h3 id="player_question"></h3>
 		 <br>
-		 <h3 id="player2_status"></h3>
+		 <h3 id="player_answer"></h3>
 		<br>
 		<div id="player_output"></div>
 		<br>
 
-		<label style="color: white;">Send You Word: <b style="color: rgb(241, 66, 66)">Try putting word which has 5 or more alphabets</b></label>
+		<label style="color: red;">Number 1: </label>
 		<br>
-		<br>
-		<input type="text" placeholder="Enter the word" class="form-control" id="word">
+		<input type="text" placeholder="Enter the First Number" class="form-control" id="number_input1">
+			<br>
+			<label style="color: red;">Number 2: </label>
+			<input type="text" placeholder="Enter the Second Number" class="form-control" id="number_input2">
 			<br>
 			<button type="button" onclick="send();" class="btn btn-success">Send</button>
 		<br>
